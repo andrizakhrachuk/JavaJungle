@@ -10,5 +10,6 @@ The application contains a Docker Compose file named `docker-compose.yaml`.
     - add database
     - add flyway
     - add versioning
+    - add static analyzer
 
 
