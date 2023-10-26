@@ -43,7 +43,7 @@ dependencies {
 }
 
 docker {
-    name("java-jungle:0.0.1")
+    name("java-jungle:0.0.1-SNAPSHOT")
     dockerfile file("docker/Dockerfile")
     files tasks.bootJar
     dependsOn tasks.bootJar
